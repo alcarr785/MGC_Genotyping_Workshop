@@ -2,8 +2,8 @@
 
 In this course you will demonstrating some of the basic concepts of genome analysis. The requirements for this course are as follows:  
 
-1. Ubuntu is a Linux based operating system like Windows or MacOS. Running Ubuntu within a virtual machine is like having a computer on your computer. We will be using Ubuntu for all of our analysis. [Here](https://learn.microsoft.com/en-us/windows/wsl/install) is a guide for installing a subsystem for Windows. If you are on a MacOS you will need a different way to install an Ubuntu subsystem. 
-2. A [GitHub account](https://github.com/). GitHub is a cloud file storage service like Google Docs or OneDrive. By uploading files to GitHub we can access them from anywhere and even track changes to files. Each database is known as a repository. 
+1. **Ubuntu** Ubuntu is a Linux based operating system like Windows or MacOS. Running Ubuntu within a virtual machine is like having a computer on your computer. We will be using Ubuntu for all of our analysis. [Here](https://learn.microsoft.com/en-us/windows/wsl/install) is a guide for installing a subsystem for Windows. If you are on a MacOS you will need a different way to install an Ubuntu subsystem. 
+2. **A [GitHub account](https://github.com/)** GitHub is a cloud file storage service like Google Docs or OneDrive. By uploading files to GitHub we can access them from anywhere and even track changes to files. Each database is known as a repository. 
 
 ## The Command Line Interface and Installing Software
 
@@ -34,10 +34,6 @@ git clone https://github.com/alcarr785/MGC_Genotyping_Workshop
 cd MGC_Genotyping
 ```
 where the command `clone` copies the entire repository for you to use. Next, `cd` is used to change directory into the repository. If we want to go up a directory we can use the command `cd ..`. Next we want to view the files in here.
-
-```
-ls
-```
 
 The `ls` command prints all the files and directories in this directory. 
 ```
